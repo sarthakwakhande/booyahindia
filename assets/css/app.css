@@ -1,0 +1,69 @@
+:root {
+  --bg: #0c0d12;
+  --panel: #151823;
+  --muted: #98a0b3;
+  --text: #e8ebf5;
+  --accent: #5c7cff;
+  --accent2: #23d7ff;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, Segoe UI, Roboto, sans-serif;
+  background: radial-gradient(circle at top, #1b2140 0%, var(--bg) 45%);
+  color: var(--text);
+}
+.topbar {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: .85rem 1rem;
+  background: rgba(11,14,22,.95);
+  border-bottom: 1px solid #242c45;
+}
+.topbar nav { display: flex; gap: .8rem; flex-wrap: wrap; }
+.topbar a { color: var(--text); text-decoration: none; font-size: .95rem; }
+.brand { font-weight: 700; color: var(--accent2); }
+.container { max-width: 1100px; margin: 1.2rem auto; padding: 0 1rem; }
+.card {
+  background: linear-gradient(145deg, #141826, #12131d);
+  border: 1px solid #2a3357;
+  border-radius: 14px;
+  padding: 1.1rem;
+  box-shadow: 0 6px 22px rgba(0,0,0,.35);
+}
+.grid { display: grid; gap: 1rem; }
+.grid.three { grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); }
+.grid.four { grid-template-columns: repeat(auto-fit,minmax(130px,1fr)); }
+.btn {
+  border: 0;
+  display: inline-block;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  color: #fff;
+  padding: .6rem .9rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.form-grid { display: grid; gap: .7rem; max-width: 350px; }
+.btn-secondary { background: #202d57; border: 1px solid #3b4b85; }
+.inline-form { display: inline-block; margin: .2rem .2rem 0 0; }
+input {
+  width: 100%;
+  background: #0e1018;
+  border: 1px solid #2d3864;
+  color: #fff;
+  border-radius: 7px;
+  padding: .6rem;
+}
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border-bottom: 1px solid #273254; padding: .7rem .5rem; text-align: left; }
+@media (max-width: 768px) {
+  .topbar { flex-direction: column; align-items: flex-start; gap: .6rem; }
+}
+
+
+.preview-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.preview-grid figure { margin: 0; background: #101523; border: 1px solid #2a3357; border-radius: 12px; overflow: hidden; }
+.preview-grid img { width: 100%; display: block; aspect-ratio: 16/9; object-fit: cover; }
+.preview-grid figcaption { padding: .6rem .8rem; color: #c7d1eb; font-size: .92rem; }
