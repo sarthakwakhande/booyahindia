@@ -1,0 +1,22 @@
+<svg width="1200" height="700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d131f"/><stop offset="1" stop-color="#102437"/></linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg3)"/>
+  <rect x="30" y="30" width="1140" height="640" rx="18" fill="none" stroke="#3ddc97" stroke-width="3"/>
+  <text x="70" y="90" fill="#ffffff" font-size="34" font-family="Arial">BooyahIndia — Admin Control Center Preview</text>
+  <rect x="80" y="140" width="1040" height="140" rx="14" fill="#151c2b" stroke="#57b5ff"/>
+  <rect x="120" y="180" width="200" height="60" rx="10" fill="#1d2842"/>
+  <rect x="360" y="180" width="200" height="60" rx="10" fill="#1d2842"/>
+  <rect x="600" y="180" width="200" height="60" rx="10" fill="#1d2842"/>
+  <rect x="840" y="180" width="200" height="60" rx="10" fill="#1d2842"/>
+  <text x="150" y="220" fill="#d7ebff" font-size="20" font-family="Arial">Users</text>
+  <text x="395" y="220" fill="#d7ebff" font-size="20" font-family="Arial">Matches</text>
+  <text x="635" y="220" fill="#d7ebff" font-size="20" font-family="Arial">Withdrawals</text>
+  <text x="885" y="220" fill="#d7ebff" font-size="20" font-family="Arial">Redeem Codes</text>
+  <rect x="80" y="320" width="1040" height="320" rx="14" fill="#141c2a" stroke="#3ddc97"/>
+  <text x="120" y="370" fill="#fff" font-size="24" font-family="Arial">Recent Admin Actions</text>
+  <rect x="120" y="400" width="960" height="52" rx="10" fill="#0f1624" stroke="#2d4263"/>
+  <rect x="120" y="470" width="960" height="52" rx="10" fill="#0f1624" stroke="#2d4263"/>
+  <rect x="120" y="540" width="960" height="52" rx="10" fill="#0f1624" stroke="#2d4263"/>
+</svg>
